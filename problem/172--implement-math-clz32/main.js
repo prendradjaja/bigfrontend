@@ -1,9 +1,9 @@
+// Don't bother finishing this problem -- not fun to reverse engineer the spec for the rest of the cases
+
 function main() {
   assertEquals(clz32(1), 31);
   assertEquals(clz32(10000), 18);
   assertEquals(clz32(25.45), 27);
-
-  // Don't bother -- not fun to reverse engineer the spec for the rest of the cases
 }
 
 function clz32(n) {
